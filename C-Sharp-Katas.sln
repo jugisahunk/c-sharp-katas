@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Tests", "Katas\Katas.Tests.csproj", "{C52E63FD-67A1-4FBF-A936-DEC437BFFDB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTests", "Katas\FizzBuzzTests.csproj", "{C52E63FD-67A1-4FBF-A936-DEC437BFFDB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{2842930C-8140-4E73-8759-ABFEE9490A1C}"
 EndProject
