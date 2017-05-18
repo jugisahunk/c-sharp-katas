@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTests", "FizzBuzzTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{2842930C-8140-4E73-8759-ABFEE9490A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryNumbers", "BinaryNumbers\BinaryNumbers.csproj", "{F251F30D-50D4-48A5-BFF4-A05F7F1BD0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryNumbersTests", "BinaryNumbersTests\BinaryNumbersTests.csproj", "{73FA4B0B-9C9D-4A58-8844-2376FDF73309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{2842930C-8140-4E73-8759-ABFEE9490A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2842930C-8140-4E73-8759-ABFEE9490A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2842930C-8140-4E73-8759-ABFEE9490A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F251F30D-50D4-48A5-BFF4-A05F7F1BD0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F251F30D-50D4-48A5-BFF4-A05F7F1BD0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F251F30D-50D4-48A5-BFF4-A05F7F1BD0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F251F30D-50D4-48A5-BFF4-A05F7F1BD0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FA4B0B-9C9D-4A58-8844-2376FDF73309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FA4B0B-9C9D-4A58-8844-2376FDF73309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FA4B0B-9C9D-4A58-8844-2376FDF73309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FA4B0B-9C9D-4A58-8844-2376FDF73309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
