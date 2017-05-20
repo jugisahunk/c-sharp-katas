@@ -29,14 +29,14 @@ namespace BinaryNumbers
 		[Test]
 		public void BinaryNumbers_returns_00000000000000000000000000000001_for_input_1()
 		{
-			var result = binaryNumbers.IntegerToBinary(0);
+			var result = binaryNumbers.IntegerToBinary(1);
 			Assert.AreEqual("0000000000000000000000000000001", result);
 		}
 
 		[Test]
 		public void BinaryNumbers_returns_0000000000000000000010000000000_for_input_1024()
 		{
-			var result = binaryNumbers.IntegerToBinary(0);
+			var result = binaryNumbers.IntegerToBinary(1024);
 			Assert.AreEqual("0000000000000000000010000000000", result);
 		}
 
@@ -58,14 +58,14 @@ namespace BinaryNumbers
 		public void BinaryNumbers_returns_01010101010101010101010101010101_for_input_1431655765()
 		{
 			var result = binaryNumbers.IntegerToBinary(1431655765);
-			Assert.AreEqual("10101010101010101010101010101010", result);
+			Assert.AreEqual("1010101010101010101010101010101", result);
 		}
 
 		[Test]
 		public void BinaryNumbers_returns_01111111111111111111111111111111_for_input_2147483647()
 		{
 			var result = binaryNumbers.IntegerToBinary(2147483647);
-			Assert.AreEqual("01111111111111111111111111111111", result);
+			Assert.AreEqual("1111111111111111111111111111111", result);
 		}
 
 		[Test]
@@ -106,7 +106,7 @@ namespace BinaryNumbers
 		[Test]
 		public void BinaryNumbers_returns_1431655765_for_input_01010101010101010101010101010101()
 		{
-			var result = binaryNumbers.BinaryToInteger("10101010101010101010101010101010");
+			var result = binaryNumbers.BinaryToInteger("1010101010101010101010101010101");
 			Assert.AreEqual(1431655765, result);
 		}
 
