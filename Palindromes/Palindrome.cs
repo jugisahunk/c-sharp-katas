@@ -5,11 +5,11 @@ namespace Palindromes
     {
         public Palindrome()
         {
-		}
+	}
 
-		public bool IsPalindrome(string s)
-		{
+	public bool IsPalindrome(string s)
+	{
             throw new NotImplementedException();
-		}
+	}
     }
 }
