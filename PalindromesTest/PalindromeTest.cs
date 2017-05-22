@@ -43,6 +43,7 @@ namespace Palindromes
 
         [Test()]
         public void IsPalindrome_returns_true_for_ABBA(){
+            //palindromes can be two, mirrored words e.g. AB BA
             string testString = "ABBA";
 
             bool result = _testee.IsPalindrome(testString);
@@ -52,7 +53,8 @@ namespace Palindromes
 
         [Test()]
         public void IsPalindrome_returns_true_for_racecar(){
-            string testString = "racecar";
+			//palindromes can share a letter e.g. rac e car
+			string testString = "racecar";
 
             bool result = _testee.IsPalindrome(testString);
 
@@ -61,6 +63,7 @@ namespace Palindromes
 
         [Test()]
         public void IsPalindrome_returns_true_for_Bob(){
+            //case shouldn't matter
             string testString = "Bob";
 
             bool result = _testee.IsPalindrome(testString);
@@ -70,6 +73,7 @@ namespace Palindromes
 
         [Test()]
         public void IsPalindrome_returns_true_for_dammit_im_mad(){
+            //non alpha characters shouldn't matter
             string testString = "Dammit, I'm mad!";
 
             bool result = _testee.IsPalindrome(testString);
