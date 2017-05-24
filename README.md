@@ -1,5 +1,5 @@
 # c-sharp-katas
-Some classic katas build with NUnit.
+Some classic katas build with NUnit; an adaptation of [Ala Barber's Code Katas](https://github.com/AlanBarber/CodeKatas) repo.
 
 Build using NUnit test projects.
 
