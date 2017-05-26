@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromes", "Palindromes\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromesTest", "PalindromesTest\PalindromesTest.csproj", "{4B46174E-9D01-4616-B83A-CB30332C2001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingGameTests", "BowlingGameTests\BowlingGameTests.csproj", "{C18BB42A-039D-4A29-9ED0-031CA3A76D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingGame", "BowlingGame\BowlingGame.csproj", "{C5BC6162-1629-4EA2-A1FF-CEC108635A40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,5 +47,13 @@ Global
 		{4B46174E-9D01-4616-B83A-CB30332C2001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B46174E-9D01-4616-B83A-CB30332C2001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B46174E-9D01-4616-B83A-CB30332C2001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18BB42A-039D-4A29-9ED0-031CA3A76D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18BB42A-039D-4A29-9ED0-031CA3A76D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18BB42A-039D-4A29-9ED0-031CA3A76D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18BB42A-039D-4A29-9ED0-031CA3A76D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5BC6162-1629-4EA2-A1FF-CEC108635A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BC6162-1629-4EA2-A1FF-CEC108635A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BC6162-1629-4EA2-A1FF-CEC108635A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BC6162-1629-4EA2-A1FF-CEC108635A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
