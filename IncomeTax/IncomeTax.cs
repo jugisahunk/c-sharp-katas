@@ -1,7 +1,4 @@
 ﻿using System;
-public class MyClass
+public class IncomeTax
 {
-    public MyClass()
-    {
-    }
 }
