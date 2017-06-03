@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxTests", "IncomeTax
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTax", "IncomeTax\IncomeTax.csproj", "{38968367-DFD6-4D69-815B-79DBF563BCCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams", "Anagrams\Anagrams.csproj", "{A8F26555-88E8-4065-B7B2-71E4C625AF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramsTests", "AnagramsTests\AnagramsTests.csproj", "{D6AFAB59-608F-4A17-8447-7C34B0508E8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +71,13 @@ Global
 		{38968367-DFD6-4D69-815B-79DBF563BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38968367-DFD6-4D69-815B-79DBF563BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38968367-DFD6-4D69-815B-79DBF563BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F26555-88E8-4065-B7B2-71E4C625AF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F26555-88E8-4065-B7B2-71E4C625AF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F26555-88E8-4065-B7B2-71E4C625AF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F26555-88E8-4065-B7B2-71E4C625AF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AFAB59-608F-4A17-8447-7C34B0508E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AFAB59-608F-4A17-8447-7C34B0508E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AFAB59-608F-4A17-8447-7C34B0508E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AFAB59-608F-4A17-8447-7C34B0508E8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
